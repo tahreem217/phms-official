@@ -20,7 +20,7 @@ const About = () => {
     "shadow-md hover:shadow-2xl hover:-translate-y-1 " +
     "transition-all duration-300 ease-in-out border border-amber-300";
     const header=
-    "relative top-10 m-auto font-rancho bg-white  mt-20 flex text-black justify-start   gap-1 items-start px-4 py-3 w-fit    rounded-xl " +
+    "relative top-10 m-auto font-rancho bg-white  mt-20 flex text-black justify-start w-[95vw] md:w-fit gap-1 items-start px-4 py-3 w-fit    rounded-xl " +
     "shadow-md  border border-amber-300  font-2xl  ";
     const discipline=
     "relative   m-auto font-rancho bg-white   flex flex-col text-black justify-start   gap-1 items-start px-4 py-3  w-[90vw] md:w-3/4  rounded-xl " +
@@ -132,7 +132,7 @@ const About = () => {
   <p className="flex gap-1"> <FaHandPointRight size={22} /> In case of dispute, the decision of the Management shall be FINAL AND BINDING.</p>
 
   <h1 className="text-red-700 bg-amber-100 p-2 font-bold">DISCIPLINE</h1>
-  div className="h-0.5 bg-black w-1/3"></div>
+  <div className="h-0.5 bg-black w-1/3"></div>
   <p className="flex gap-1"> <FaHandPointRight size={22} /> Students must arrive at school **before the first bell**. Latecomers may be sent back.</p>
   <p className="flex gap-1"> <FaHandPointRight size={22} /> When students move along the corridors or during recess, they must walk in perfect silence and in a single file. Great care must be taken not to litter the classroom, corridor, or compound. They should use the bins to dispose of sweet wrappers, polythene bags, scraps, etc. Cell phones/mobile phones are strictly prohibited during class hours. The use of all kinds of tobacco is strictly prohibited in the school..</p>
   <p className="flex gap-1"> <FaHandPointRight size={22} /> Books other than textbooks, not related to study, should not be brought to school.</p>
