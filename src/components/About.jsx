@@ -138,7 +138,7 @@ const About = () => {
         <Bullet>Students should dedicate at least two hours daily to studies at home.</Bullet>
         <Bullet>Inculcate the value of dignity of labor.</Bullet>
         <Bullet>Guardians are responsible for the safety of their children.</Bullet>
-        <div className='h-5 w-full'></div>
+        <div className='h-10 w-full'></div>
       </div>
     </div>
   );
