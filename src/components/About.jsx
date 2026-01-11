@@ -57,6 +57,7 @@ const About = () => {
 
         <img src={icoon} alt="School Icon" className="w-14 h-14 object-contain ml-3" />
       </div>
+      <div className='h-5 w-screen'></div>
 
       <div className={`self-start ${cardStyle1}`}>
         <img src={quotes} alt="quotes" className="w-16 md:w-20" />
