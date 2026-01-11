@@ -50,7 +50,7 @@ const Thought = () => {
 </div>
 
 
-      <div className="thought z-10"> 
+      <div className="thought  "> 
         <h3>
           THOUGHT FOR THE DAY <FontAwesomeIcon icon={faLightbulb} />
         </h3>
