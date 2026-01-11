@@ -20,7 +20,7 @@ const About = () => {
     "shadow-md hover:shadow-2xl hover:-translate-y-1 " +
     "transition-all duration-300 ease-in-out border border-amber-300";
     const header=
-    "relative top-10 m-auto font-rancho bg-white  mt-20 flex text-black justify-start w-[95vw] md:w-fit gap-1 items-start px-4 py-3 w-fit    rounded-xl " +
+    "relative top-10 m-auto font-rancho bg-white  mt-20 flex text-black justify-start   gap-1 items-start px-4 py-3 md:w-fit w-[95vw]   mb-10  rounded-xl " +
     "shadow-md  border border-amber-300  font-2xl  ";
     const discipline=
     "relative   m-auto font-rancho bg-white   flex flex-col text-black justify-start   gap-1 items-start px-4 py-3  w-[90vw] md:w-3/4  rounded-xl " +
@@ -30,7 +30,7 @@ const About = () => {
 
     <div
 
-  className="flex flex-col py-8 px-4 gap-6  relative min-h-screen"
+  className="flex flex-col py-8 px-1 gap-6  relative min-h-screen"
   
 >
 <img
