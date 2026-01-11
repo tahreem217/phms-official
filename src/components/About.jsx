@@ -92,7 +92,7 @@ const About = () => {
           activities under the guidance of trained teachers.
         </p>
       </div>
-
+gi
       <div className={discipline}>
         <img src={rules} alt="rules" className="w-40 m-auto object-contain" />
 
