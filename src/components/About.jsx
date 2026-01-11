@@ -7,7 +7,7 @@ import rules from "../assets/rules.png";
 import logo from "./logo.png";
 import { FaHandPointRight } from "react-icons/fa";
 
-import { NavLink } from 'react-router-dom'
+ 
 const About = () => {
 
   const cardStyle2 =

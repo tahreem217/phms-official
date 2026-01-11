@@ -1,6 +1,5 @@
 {
   "homepage": "https://tahreem217.github.io/phms-official",
-
   "name": "first-app",
   "private": true,
   "version": "0.0.0",
@@ -11,8 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-"deploy": "gh-pages -d dist"
-
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^7.1.0",
@@ -23,7 +21,7 @@
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-icons": "^5.5.0",
-    "react-router-dom": "^7.12.0",
+    "react-router-dom": "^6.30.3",
     "tailwindcss": "^4.1.18"
   },
   "devDependencies": {
