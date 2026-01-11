@@ -91,11 +91,11 @@ const Admission = () => {
 
           <tbody className="bg-slate-100">
             {[
-              ["Class VI", 20,  "₹3000"],
-              ["Class VII", 22,  "₹3000"],
-              ["Class VIII", 24,  "₹3000"],
-              ["Class IX", 26,  "₹3000"],
-              ["Class X", 26,  "₹3000"],
+              ["Class VI", 31,  "₹3000"],
+              ["Class VII", 37,  "₹3000"],
+              ["Class VIII", 58,  "₹3000"],
+              ["Class IX", 68,  "₹3000"],
+              ["Class X", 88,  "₹3000"],
               ["Class IX:Science", 256, "₹8000+(₹2000 Promotion fees)"],
               ["Class IX:Commerce", 256,  "₹8000+(₹2000 Promotion fees)"],
               ["Class IX:Arts", 256, "₹8000+(₹2000 Promotion fees)"],
@@ -113,7 +113,7 @@ const Admission = () => {
           <tfoot>
             <tr className="bg-slate-200">
               <th className={footerCell}>Total</th>
-              <td className={footerCell}>92</td>
+              <td className={footerCell}>1050</td>
               <td className={footerCell}></td>
               
             </tr>
