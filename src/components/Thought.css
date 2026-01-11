@@ -1,0 +1,34 @@
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.thought{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:30px;
+    margin-top:10px;
+    background-color: #42426F;
+    color:aliceblue;
+    width: 50%;
+    border-radius: 10px;
+    text-align: center;
+  
+    /* 3D effect */
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.2), 
+                -4px -4px 10px rgba(255,255,255,0.7);
+}
+@media (max-width: 710px)  {
+   .thought{
+    width:90%;
+   }
+    
+}
+ 
+  

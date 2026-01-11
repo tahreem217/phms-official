@@ -1,0 +1,21 @@
+@import "tailwindcss";  /* ✅ MUST BE FIRST */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.font-rancho {
+  font-family: 'Rancho', cursive;
+}
+
+.font-pacifico {
+  font-family: 'Pacifico', cursive;
+}
+
+.shadow-multiple {
+  text-shadow:
+    1px 1px 0 #000,
+    2px 2px 0 #000,
+    3px 3px 0 #000;
+}

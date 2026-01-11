@@ -1,0 +1,85 @@
+/* Common styles */
+nav {
+    background-color: #565676;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .head, .list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+
+    
+  }
+   
+  .list{
+    padding:5px;
+  }
+  .list a{
+    border-radius: 5px;
+  }
+  .head {
+    height: 100px;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .head img {
+    height: 100px;
+    width: 90px;
+  }
+  
+  .head h2 {
+    margin: 0;
+  }
+  
+  .list {
+    
+    padding-left: 10px;
+    gap: 40px;
+  }
+  
+  .list a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 12px;
+     
+  }
+  
+  .list a:hover,
+  .list a.active {
+    background-color: aliceblue;
+    color: black;
+    font-weight: bold;
+  }
+  
+  /* Responsive: just reduce font and logo size */
+  @media (max-width: 768px) {
+    .head img {
+      width: 60px;
+      height: 60px;
+    }
+  .head{
+    height: 60px;
+  }
+    .head h2 {
+      font-size: 12px;
+    }
+  
+    .list {
+      font-size: 11px;
+      gap: 20px;
+      padding-left: 5px;
+      justify-content: center;
+    }
+    
+    .list a {
+      padding: 6px 8px;
+    }
+  }
+  
