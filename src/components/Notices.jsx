@@ -15,11 +15,7 @@ const Notices = () => {
         <div className="links ">
           <div className="w-full">
             <div 
-              data-bs-spy="scroll" 
-              data-bs-target="#list-example" 
-              data-bs-smooth-scroll="true" 
-              className="scrollspy-example" 
-              tabIndex={0} 
+              
               style={{ maxHeight: "300px", overflowY: "auto" }}
             >
               <h4 id="list-item-1">BSEB Official Website</h4>
