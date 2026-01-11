@@ -59,7 +59,7 @@ const About = () => {
       </div>
       <div className='h-2 w-screen'></div>
 
-      <div className={`self-start ${cardStyle1}`}>
+      <div className={`self-start ml-1 ${cardStyle1}`}>
         <img src={quotes} alt="quotes" className="w-16 md:w-20" />
         <h1 className="font-rancho text-2xl mt-2">HISTORY</h1>
         <div className="h-0.5 w-1/4 bg-amber-900 my-2"></div>
@@ -76,7 +76,7 @@ const About = () => {
         </p>
       </div>
 
-      <div className={`self-end ${cardStyle2}`}>
+      <div className={`self-end mr-1${cardStyle2}`}>
         <img src={lamp} alt="lamp" className="w-16 md:w-20" />
         <h1 className="font-rancho text-2xl mt-2">AIM AND OBJECTIVE</h1>
         <div className="h-0.5 w-1/4 bg-amber-900 my-2"></div>
