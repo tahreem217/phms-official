@@ -63,7 +63,7 @@ const Admission = () => {
         <br />
         <h5>ADMISSION PROCEDURE</h5>
         <div className="h-0.5 bg-black w-3/4"></div>
-        <p className="flex gap-1"> <FaHandPointRight size={22} /><span className="font-bold">Science:</span><span className="block sm:inline">:Entrance test/Interview/Merit list</span></p>
+        <p className="flex gap-1"> <FaHandPointRight size={22} /><span className="font-bold">Science:</span><span className="block sm:inline">Entrance test/Interview/Merit list</span></p>
         <p className="flex gap-1"> <FaHandPointRight size={22} /><span className="font-bold">Art and Commerce:</span><span className="block sm:inline">Interview/Merit list</span></p>
         <br />
         <h5>DOCUMENTS REQUIRED</h5>
